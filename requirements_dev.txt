@@ -9,4 +9,4 @@ tox
 black = this is for formatting purpose
 flake8 = findout any error is there
 mypy = type check #any type error is there will be tested here
-
+-e .
