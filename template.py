@@ -7,7 +7,7 @@ logging.basicConfig(
     format= "[%(asctime)s: %(levelname)s]: %(message)s"
 )
 
-while True
+while True:
     project_name = input("Enter the project Name: ")
     if project_name != '':
         break
@@ -41,4 +41,3 @@ for filepath in list_of_files:
             logging.info(f"creating a new file: {filename} at path: {filepath}")
     else:
         logging.info(f"file is already present at: {filepath}")       
-        
